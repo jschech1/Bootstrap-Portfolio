@@ -220,3 +220,8 @@ input[type=submit] {
 #profilePicture {
   float: left;
 }
+
+img{
+  height: 200px;
+}
+
