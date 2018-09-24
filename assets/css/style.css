@@ -35,7 +35,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #659dbd;
 }
 
 h1 {
@@ -74,7 +74,7 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #8d8741;
 }
 
 nav {
@@ -107,7 +107,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #8d8741;
   height: 50px;
 }
 
@@ -165,7 +165,7 @@ h3, h2 {
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #8d8741;
   border-bottom: 0;
 }
 
@@ -213,7 +213,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #8d8741;
   border: 0 none;
 }
 
@@ -221,7 +221,19 @@ input[type=submit] {
   float: left;
 }
 
-img{
+.portfolio-image{
   height: 200px;
+}
+
+#linkedin-icon{
+  float: left;
+  width: 7%;
+ margin-left: 40%;
+}
+
+#github-icon{
+  float: right;
+  width: 6%;
+  margin-right: 40%;
 }
 
