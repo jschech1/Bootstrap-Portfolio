@@ -186,6 +186,7 @@ h3, h2 {
   background: #8d8741;
   border-bottom: 0;
   bottom: 45px;
+  border-radius: 3px;
 }
 
 .auth-image {
