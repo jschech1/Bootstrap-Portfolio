@@ -80,6 +80,7 @@ p {
   text-align: center;
   text-decoration: none;
   background: #8d8741;
+  border-radius: 4px;
 }
 
 nav {
