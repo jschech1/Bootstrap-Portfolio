@@ -167,6 +167,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  border-radius: 3px;
 }
 
 #profile-pic {
@@ -185,7 +186,7 @@ h3, h2 {
   text-align: center;
   background: #8d8741;
   border-bottom: 0;
-  bottom: 45px;
+  bottom: 30px;
   border-radius: 3px;
 }
 
