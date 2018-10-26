@@ -25,28 +25,28 @@
       <a href="index.html" id="logo">Jordan Schechter</a>
 
       <nav class="navbar navbar-expand-lg navbar-light">
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">About
-                  <span class="sr-only"></span>
-                </a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Web Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="email-portfolio.html">Email Marketing Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="contact.html">Contact</a>
-              </li>
+              <a class="nav-link" href="index.html">About
+                <span class="sr-only"></span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Web Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="email-portfolio.html">Email Marketing Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="contact.html">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -57,53 +57,67 @@
     <section class="main-section">
       <h1>Web Portfolio</h1>
 
+
+
+
       <div class="work">
-          <a href="https://vast-basin-29220.herokuapp.com/">
-        <img id ="clicky-game" class="portfolio-image" src="assets/images/Screen Shot 2018-10-04 at 10.14.26 AM.png" alt="Have Fun While Learning My Resume">
+        <div class="modal-container">
+          <a href="https://vast-basin-29220.herokuapp.com/" title="React Clicky Game!" data-toggle="popover"
+            data-trigger="hover" data-content="This is a memory game I created using React. Each card is a programming lanugage I am proficient in. This application required me to break up the UI into components, manage component state, and respond to user events.">
+            <img id="clicky-game" class="portfolio-image" src="assets/images/Screen Shot 2018-10-04 at 10.14.26 AM.png"
+              alt="Have Fun While Learning My Resume">
 
-        <h3>Have Fun While Learning My Resume</h3></a>
-      </a>
-
+            <h3>Have Fun While Learning My Resume</h3>
+          </a>
+        </div>
       </div>
 
       <div class="work">
-        <a href="https://jschech1.github.io/thePerfectRide-1/">
-      <img class="portfolio-image" src="assets/images/Screen Shot 2018-10-25 at 1.47.10 PM.png" alt="The Perfect Ride">
+        <div class="modal-container">
+          <a href="https://jschech1.github.io/thePerfectRide-1/" title="The Perfect Ride (Built with JavaScript)"
+            data-toggle="popover" data-trigger="hover" data-content="This app allows users to plot a bike route using the Google Maps API, and have a number of waypoints along the route that display weather information at each location. This app uses JavaScript for its functionallity and AJAX to make requests to the Google Maps and OpenWeatherMap APIs.">
+            <img class="portfolio-image" src="assets/images/Screen Shot 2018-10-25 at 1.47.10 PM.png" alt="The Perfect Ride">
 
-      <h3>Bike App</h3>
-    </a>
-    </div>
-
-      <div class="work">
-          <a href="https://morning-basin-99837.herokuapp.com">
-        <img class="portfolio-image" src="assets/images/Screen Shot 2018-10-25 at 1.45.19 PM.png" alt="DorisRx">
-
-        <h3>DorisRx</h3>
-      </a>
-
+            <h3>Bike App</h3>
+          </a>
+        </div>
       </div>
 
-     
+      <div class="work">
+        <div class="modal-container">
+          <a href="https://morning-basin-99837.herokuapp.com" title="DorisRx (Built with the MERN Stack)"
+          data-toggle="popover" data-trigger="hover" data-content="This app allows caregivers to track perscriptions. When a pill is taken, the user will mark it which updates the inventory and tracks how many days left until a refill is needed. This app also pulls in helpful information from the FDA's API. This app was built using React.">
+            <img class="portfolio-image" src="assets/images/Screen Shot 2018-10-25 at 1.45.19 PM.png" alt="DorisRx">
 
-        <div class="work">
-            <a href="https://jschech1.github.io/trivia-game/">
+            <h3>DorisRx</h3>
+          </a>
+        </div>
+      </div>
+
+
+
+      <div class="work">
+          <div class="modal-container">
+        <a href="https://jschech1.github.io/trivia-game/" title="Buffalo Bills Trivia! "
+        data-toggle="popover" data-trigger="hover" data-content="Test your Buffalo Bills trivia knowledge using this app I created using JavaScript for the logic and jQuery to manipulate HTML. Good luck!">
           <img class="portfolio-image" src="assets/images/Screen Shot 2018-10-25 at 1.49.46 PM.png" alt="Buffalo Bills Trivia">
-        
+
           <h3>Trivia Game</h3>
         </a>
+      </div>
+      </div>
+
+      <div class="icons">
+
+        <div>
+          <a href="https://github.com/jschech1">
+            <img id="github-portfolio" src="assets/images/github-icon.png"></a>
+
         </div>
-     
-        <div class="icons">
-       
-          <div>
-              <a href="https://github.com/jschech1">
-              <img id="github-portfolio" src="assets/images/github-icon.png"></a>
-              
-            </div>
 
     </section>
 
-    
+
 
     </section>
 
@@ -116,6 +130,11 @@
       Copyright &copy;
     </div>
   </footer>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
 </body>
 
 </html>
